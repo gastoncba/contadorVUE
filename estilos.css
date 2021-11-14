@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+.main-app {
+    padding: 3% 45%;
+}
+
+.value {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50%;
+}
+
+h1 {
+    padding:0 10% 0 40%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container-extra {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 0 0 0 44%;
+    font-family: 'Balsamiq Sans', cursive;
+}
