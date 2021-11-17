@@ -2,16 +2,19 @@ var app = new Vue({
     el: '#app',
     data: {
       textHTML: `<h1>Contador con Vue JS</h1>`,
-      value: 0
+      value: 0,
+      clicks: 0
     }, 
     methods: {
       aumentar() {
         this.value += 1;
+        this.clicks += 1;
       },
       disminuir() {
         if(this.value != 0) {
           this.value -= 1;
         }
+        this.clicks += 1;
       }
     }, 
     computed: {
